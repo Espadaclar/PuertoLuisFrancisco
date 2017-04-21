@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=matricula\ eslora\ anio\ persona\ potencia
+comment0.target=EmbarcacionAMotor(java.lang.String,\ double,\ int,\ Persona,\ int)
+comment1.params=
+comment1.target=int\ getPotencia()
+comment2.params=
+comment2.target=int\ getCoeficienteBernua()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
