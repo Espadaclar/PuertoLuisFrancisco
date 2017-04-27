@@ -25,7 +25,7 @@ public class Alquiler {
 	public String toString() 
     {
         String valorADevolver = "";
-        valorADevolver = barco + " " + numDiasAlquiler + " " + posicionAmarre;
+        valorADevolver = barco + " " + diasOcupacion + " " + posicionAmarre;
         return valorADevolver;
     }
 }
