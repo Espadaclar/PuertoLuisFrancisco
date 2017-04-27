@@ -20,10 +20,10 @@ public abstract class  Barco {
     @Override
     public String toString() {
         String datos = "";
-        datos += "Nombre propietario; " +persona.getName()+ "\n";
-        datos += "Matrícula del barco; " +matricula+ "\n";
-        datos += "Metros de eslora; " +eslora+ " m.\n";
-        datos += "Año de fabricación; " +anio+ "\n";
+        datos += "Nombre propietario: " +persona.getName()+ "\n";
+        datos += "Matrícula del barco: " +matricula+ "\n";
+        datos += "Metros de eslora: " +eslora+ " m.\n";
+        datos += "Año de fabricación: " +anio;
         return datos;
         
         
