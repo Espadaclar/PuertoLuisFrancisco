@@ -8,6 +8,7 @@ public abstract class  Barco {
         this.persona = persona;
         this.matricula = matricula;
         this.anio = anio;
+        this.eslora = eslora;
     }
 
     public double getEslora() {
