@@ -22,12 +22,10 @@ public class Alquiler {
 		return posicionAmarre;
 	}
 	
-	public String toString()
+	public String toString() 
     {
-        String textoADevolver = "";
-        textoADevolver += "Días de ocupación " +diasOcupacion + "\n";
-        textoADevolver += "Posición amarre " +posicionAmarre + "\n";
-        textoADevolver += barco.toString();
-        return textoADevolver;
+        String valorADevolver = "";
+        valorADevolver = barco + " " + numDiasAlquiler + " " + posicionAmarre;
+        return valorADevolver;
     }
 }

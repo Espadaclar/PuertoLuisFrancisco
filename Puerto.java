@@ -26,25 +26,16 @@ public class Puerto {
         return precioAlquiler;
     }
 
-    // 	public void verEstadoAmarres() {
-    // 		for(int i = 0 ; i < amarres.length ; i++){
-    // 			if (amarres[i] == null){
-    // 				System.out.println("El amarre " + i + " se encuentra libre");
-    // 			} else {
-    // 				System.out.println("El amarre " + i + " esta ocupado");
-    // 			} 
-    // 		}
-    // 	}
-
-    public void verEstadoAmarres()
+    public void verEstadoAmarres() 
     {
-        for (int i = 0; i < amarres.length; i++){
-            if (amarres[i] != null){
-                System.out.println("Amarre ocupado; \n" +amarres[i].toString());
+        for(int index = 0; index < amarres.length; index++){
+            if(amarres[index] == null){
+                System.out.println("El amarre " + index + " está libre en este momento.");            
             }
-            else {
-   				System.out.println("El amarre " + i + " no esta ocupado\n");
-    			} 
+            else{
+                System.out.println("El amarre " + index + " no está libre en este momento.");
+                System.out.println(amarres[index].toString());
+            }
         }
     }
 
