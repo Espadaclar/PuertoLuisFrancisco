@@ -21,4 +21,13 @@ public class Alquiler {
 	public int getNumeroAmarre(){
 		return posicionAmarre;
 	}
+	
+	public String toString()
+    {
+        String textoADevolver = "";
+        textoADevolver += "Días de ocupación " +diasOcupacion + "\n";
+        textoADevolver += "Posición amarre " +posicionAmarre + "\n";
+        textoADevolver += barco.toString();
+        return textoADevolver;
+    }
 }
